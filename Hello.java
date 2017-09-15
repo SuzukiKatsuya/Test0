@@ -4,11 +4,11 @@ class Hello{
 
     int[] hako = new int [5];
     //失敗作
-    for(int i=0;i<6;i++){
-      hako[i] = i+1;
+    for(int i=0;i<5;i++){
+      box[i] = i+1;
     }
     for(int i=0;i<5;i++){
-      Sysytem.out.println(hako[i]);
+      System.out.println(hako[i]);
     }
 
   }
